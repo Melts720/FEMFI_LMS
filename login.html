@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/pics/BlueOrange FeLMS Symbol.png" type="image">
+    <title>FAREASTMARITIME</title>
+   <link rel="stylesheet" href="css/login.css">
+</head>
+<style>
+      body {
+            min-height: 100vh;
+            width: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('pics/image.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: relative;
+            padding: 20px;
+        }
+</style>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="pics/logo.png" alt="Maritime Training Center Logo" class="logo">
+        </div>
+
+        <form class="form" action="">
+            <input
+                placeholder="E-mail"
+                id="email"
+                name="email"
+                type="email"
+                class="input"
+                required
+            />
+            <input
+                placeholder="Password"
+                id="password"
+                name="password"
+                type="password"
+                class="input"
+                required
+            />
+            <span class="forgot-password"><a href="#">Forgot Password?</a></span>
+            <button type="submit" class="login-button">Sign In</button>
+        </form>
+    </div>
+</body>
+</html>

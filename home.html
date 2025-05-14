@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Far East Maritimes Learning Management System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/ty.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <img class="logo" src="pics/logo.png" alt="Far East Maritime Logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Far East Maritimes</h5>
+                    <button type="button" class="btn-close color " data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Courses
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">BT Orientation (Instructor's View)</a></li>
+                                <li><a class="dropdown-item" href="#">(DL) BT - Server</a></li>
+                                <li><a class="dropdown-item" href="#">RFP-ENGINEERING WATCH</a></li>
+                                <li><a class="dropdown-item" href="#">RFP-NAVIGATIONAL WATCH</a></li>
+                                <li><a class="dropdown-item" href="#">Basic Training - Distance Learning (Draft)All
+                                        Courses</a></li>
+                                <li><a class="dropdown-item" href="#">Basic Training - Distance Learning</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">E-Library</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Resources
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">FAQs</a></li>
+                                <li><a class="dropdown-item" href="#">Data Policy</a></li>
+                                <li><a class="dropdown-item" href="#">Student Handbook</a></li>
+                                <li><a class="dropdown-item" href="#">Support</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item ms-lg-3">
+                            <a class="btn btn1" href="login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Video Hero Section -->
+    <section class="img-hero">
+        <img src="pics/image.png" alt="Hero image">
+        <div class="video-overlay"></div>
+        <div class="hero-content animate__animated animate__fadeInRight">
+            <h1>FEMFI LMS</h1>
+            <p>
+                Far East Maritime Foundation Inc. offers maritime training programs accredited and regulated by the
+                Maritime Industry Authority of the Philippines. Our training programs are delivered via distance and
+                e-learning and adheres to the requirements of
+                <a href="https://stcw.marina.gov.ph/wp-content/uploads/2016/02/MEMORANDUM-CIRCULAR-NO.-SC-2021-10-DISTANCE-LEARNING.pdf"
+                    target="_blank">MARINA STCW Memorandum Circular No. SC 2021-10 Revised Guidelines on Training and
+                    Assessment of Seafarers by Distance Learning and E-Learning.</a>
+            </p>
+            <a class="btn btns btn1 mb-5" href="login.html">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200"
+                data-aos-anchor-placement="center-bottom">
+                <h2 class="fw-bold">FEMFI LMS</h2>
+                <p class="text-muted">Discover the benefits of learning with Far East Maritime Foundation</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="250"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="feature-card">
+                        <div class="feature-icon">📚</div>
+                        <h3>Course management</h3>
+                        <p>Students can view their enrolled courses, access their course calendar, and see their grades
+                            and feedback. Instructors can create personalized learning paths for students.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="feature-card">
+                        <div class="feature-icon">💻</div>
+                        <h3>Assessment</h3>
+                        <p>Instructors can use quizzes, surveys, and other assessment tools.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="350"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="feature-card">
+                        <div class="feature-icon">🏆</div>
+                        <h3>Certificates</h3>
+                        <p>Typically awarded after a training course is completed, which can be a short video or a
+                            multi-course program. A training certificate should include the following information:</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="feature-card">
+                        <div class="feature-icon">💝</div>
+                        <h3>Safety</h3>
+                        <p>The following safety and health standards, aligned with the minimum public health standards
+                            set by the Department of Health (DOH), shall apply to all employers and workers in the
+                            private sector:</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Courses Section -->
+    <section class="courses-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Available Courses</h2>
+                <p class="text-muted">Explore our most sought-after maritime training programs</p>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card course-card">
+                            <img src="pics/image.png" class="card-img-top course-img" alt="Course Image">
+                            <div class="card-body">
+                                <span class="badge bg-danger mb-2">Safety</span>
+                                <h5 class="card-title">Basic Safety Training</h5>
+                                <p class="card-text">The STCW (Standards of Training and Watch keeping for Seafarers)
+                                    Basic Training course is a mandatory requirement for all seafarers working on
+                                    commercial vessels. It provides essential safety skills and knowledge to help
+                                    seafarers respond effectively to emergencies and ensure a safe working environment.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a href="#" class="btn btn1">View Course</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card course-card">
+                            <img src="pics/hero pics.png" class="card-img-top course-img" alt="Course Image">
+                            <div class="card-body">
+                                <span class="badge bg-success mb-2">Engine</span>
+                                <h5 class="card-title">Electronic Chart Display (ECDIS)</h5>
+                                <p class="card-text">This course covers the mandatory competences and the required
+                                    knowledge, understanding and proficiencies prescribed in Section A-III/4, Table
+                                    A-III/4 of the STCW Convention as amended.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a href="#" class="btn1 btn">View Course</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card course-card">
+                            <img src="pics/image.png" class="card-img-top course-img" alt="Course Image">
+                            <div class="card-body">
+                                <span class="badge bg-danger mb-2">Safety</span>
+                                <h5 class="card-title">Advanced Firefighting</h5>
+                                <p class="card-text">Comprehensive training in fire prevention, containment and
+                                    extinguishing.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a href="#" class="btn1 btn">View Course</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card course-card">
+                            <img src="pics/hero pics.png" class="card-img-top course-img" alt="Course Image">
+                            <div class="card-body">
+                                <span class="badge bg-success mb-2">Engine</span>
+                                <h5 class="card-title">Electronic Chart Display (ECDIS)</h5>
+                                <p class="card-text">This course covers the mandatory competences and the required
+                                    knowledge, understanding and proficiencies prescribed in Section A-III/4, Table
+                                    A-III/4 of the STCW Convention as amended.</p>
+                                <a href="#" class="btn1 btn">View Course</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card course-card">
+                            <img src="pics/hero pics.png" class="card-img-top course-img" alt="Course Image">
+                            <div class="card-body">
+                                <span class="badge bg-success mb-2">Engine</span>
+                                <h5 class="card-title">Electronic Chart Display (ECDIS)</h5>
+                                <p class="card-text">This course covers the mandatory competences and the required
+                                    knowledge, understanding and proficiencies prescribed in Section A-III/4, Table
+                                    A-III/4 of the STCW Convention as amended.</p>
+                                <a href="#" class="btn1 btn">View Course</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+   <section class="stats-section">
+    <div class="container mb-5 mt-5">
+        <div class="row g-4 justify-content-center">
+            <div class="col-3 col-md-3">
+                <div class="stat-box">
+                    <div class="stat-number">157</div>
+                    <p class="text-stat">Active user</p>
+                </div>
+            </div>
+            <div class="col-3 col-md-3">
+                <div class="stat-box">
+                    <div class="stat-number text-center">14</div>
+                    <p class="text-stat">Courses made for you that you can trust</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Moodle Info Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <div class="mb-5" style="padding-top: 20px; padding-left: 20px;">
+                        <h2 class="fw-bold">Far East Maritime is powered by Moodle LMS <img src="pics/moodle.png"
+                                alt="Moodle Logo" style="height: 50px;"></h2>
+                        <p class="text-muted">To serve our customers better and to provide our staff with the best
+                            productivity and collaboration tools, Far East Maritime utilizes Moodle LMS. Moodle LMS is a
+                            learning management system that helps you create engaging eLearning experiences. It is also
+                            designed to provide educators, administrators and learners with a single robust, secure and
+                            integrated system to create personalized learning environments. Also, while you're
+                            undergoing one of Far East Maritime's training programs, rest assure your data is protected
+                            by Moodle's world-class security and privacy technologies and protocols.
+                            The FeLMS is subject to annual review and evaluation for its effectiveness and alignment to
+                            FEMFI's Vision and Mission Statement.
+                            The Management Review (FEMFI Q1.05) ensures that all process covered by the Quality System
+                            that addresses the possible need for changes to policy, objectives, targets, and other
+                            elements of the quality management system. See FeLMS QMS Manuals on our E-Library</p>
+                    </div>
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <img src="pics/docs.svg" style="height: 35px; margin-right: 10px;" alt="docs icon"> Distance
+                            Learning & E-Learning Policy
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Far East Maritime Foundation Inc. offers maritime training programs
+                            accredited and regulated by the Maritime Industry Authority of the Philippines. Our training
+                            programs are delivered via distance and e-learning and adheres to the requirements of <a
+                                href="https://stcw.marina.gov.ph/wp-content/uploads/2016/02/MEMORANDUM-CIRCULAR-NO.-SC-2021-10-DISTANCE-LEARNING.pdf"
+                                target="_blank"> MARINA STCW Memorandum Circular No. SC 2021-10 Revised Guidelines on
+                                Training and Assessment of Seafarers by Distance Learning and E-Learning.</a></div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <img src="pics/docs.svg" style="height: 35px; margin-right: 10px;" alt="docs icon"> Code of
+                            Conduct
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">An online classroom is still a classroom. Any behavior that is
+                            inappropriate in a traditional classroom is inappropriate in an online classroom. Trainees
+                            are expected to behave with integrity and honesty. There will be no questions asked nor
+                            explanations accepted for misconduct (plagiarism, cheating, acts that suggest unfulfilled
+                            responsibilities). Any evidence of academic misconduct may result in class eviction or
+                            termination of enrollment. Please review the following netiquette carefully.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            <img src="pics/docs.svg" style="height: 35px; margin-right: 10px;" alt="docs icon"> Cheating
+                            Prevention Policy
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">In today's digital age, educational institutions face the challenge
+                            of maintaining academic integrity, especially when it comes to assessments delivered online.
+                            With the widespread use of online classroom settings, like ours, it becomes crucial to
+                            implement effective measures to prevent students from cheating.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            <img src="pics/docs.svg" style="height: 35px; margin-right: 10px;" alt="docs icon"> Data
+                            Policy
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">This Privacy Policy covers our data collection procedures and
+                            defines your rights to access, correct, and restrict our use of your personal data. This
+                            Privacy Policy applies when you enroll in of our courses. By enrolling to one of our
+                            courses, you are agreeing to the terms of this Data Policy.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            <img src="pics/docs.svg" style="height: 35px; margin-right: 10px;" alt="docs icon"> FAQs
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Frequently Asked Questions</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            <img src="pics/docs.svg" style="height: 35px; margin-right: 10px;" alt="docs icon"> Grading
+                            System
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The Moodle grading system allows instructors to efficiently track
+                            and manage student grades within a course by providing a centralized location to input,
+                            view, and calculate grades from various assessments like assignments, quizzes, and forums,
+                            enabling both teachers and students to monitor progress throughout the learning process.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                            aria-controls="flush-collapseSeven">
+                            <img src="pics/docs.svg" style="height: 35px; margin-right: 10px;" alt="docs icon"> STCW
+                            Courses
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The International Convention on Standards of Training,
+                            Certification, and Watchkeeping for Seafarers sets the minimum qualification standards for
+                            masters, officers, and watch personnel on ships and large yachts. These courses ensures that
+                            seafarers have necessary knowledge, understanding, and proficiency needed to effectively
+                            perform their duties at sea.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseEight" aria-expanded="false"
+                            aria-controls="flush-collapseEight">
+                            <img src="pics/docs.svg" style="height: 35px; margin-right: 10px;" alt="docs icon">
+                            Practical Assessment
+                        </button>
+                    </h2>
+                    <div id="flush-collapseEight" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Far East Maritime Foundation Inc. is a MARINA accredited Assessment
+                            Center that provides Practical Assessment for the purpose of qualifying Candidates for the
+                            issuance of their Certificate of Competency for Officers and Certificate of Proficiency for
+                            Ratings.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseNine" aria-expanded="false"
+                            aria-controls="flush-collapseNine">
+                            <img src="pics/docs.svg" style="height: 35px; margin-right: 10px;" alt="docs icon"> In-House
+                            Training
+                        </button>
+                    </h2>
+                    <div id="flush-collapseNine" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Specialized training programs often required by B2B partners of Far
+                            East Maritime Foundation Inc. and other stake holders of the maritime industry locally in
+                            the Philippines and internationally.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7" data-aos="fade-right">
+                    <div>
+                        <h2>Mission</h2>
+                        <p>
+                            FEMFI aims to be a global recognized, competent, and competitive training and practical
+                            assessment center for seafarers.
+
+                            Our Vision is to be the go-to training and practical assessment center for seafarers in the
+                            Philippines.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Vision</h2>
+                        <p>
+                            FEMFI is committed to the enhancement of skill and knowledge of maritime professionals.
+
+                            Our mission is to consistently enhance our facilities and capabilities to provide the best
+                            maritime training and practical assessment to our customers.
+                        </p>
+                    </div>
+                    <a class="btn btn1" href="#">Get Started</a>
+                </div>
+                <div class=" marvin col-lg-5 text-center mt-4 mt-lg-0" data-aos="fade-left" >
+                    <div>
+                        <img src="pics/president-removebg-preview.png" alt="president" class="president-img">
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--MOBILE APPLICATIONS NEEDED-->
+
+    <div class="container step-container my-5">
+        <div class="fareast text-center mb-5 mt-5" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200"
+            data-aos-anchor-placement="center-bottom">
+            <h2 class="fw-bold">FAR EAST MARITIME</h2>
+            <h3>E-LEARNING MANAGEMENT SYSTEM</h3>
+        </div>
+        <div class="fareast text-center mb-5 mt-5" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200"
+            data-aos-anchor-placement="center-bottom">
+            <h2 class="fw-bold">Moblie Application needed for FeLMS</h2>
+
+        </div>
+
+        <div class="row steps-row">
+            <div class="col-md-5">
+
+                <div class="step app-1">
+
+                    <div class="step-content">
+                    <div class="moodle-logo d-flex justify-content-center align-items-center mt-3">
+                        
+                        <img src="pics/Moodle.svg" alt="m-logo" style="height: 70px; margin-right: 10px;">
+                        <h3 class="mt-3" style="font-size: 2.5rem; font-style: inherit;">Moodle</h3>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 d-none d-md-block"></div>
+
+            <div class="col-md-5">
+                <div class="step app-2">
+                    <div class="moodle-logo d-flex justify-content-center align-items-center mt-2 " style="margin-left: 2rem;">
+                        
+                        <img src="pics/google-meet-svgrepo-com.svg" alt="m-logo" style="height: 70px; margin-right: 10px;">
+                        <h3 class="mt-3" style="font-size:2rem;">Google Meet</h3>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Steps Section -->
+         <section class="Steps-Section"> 
+        <div class="container step-container my-5">
+
+            <div class="fareast text-center mb-5 mt-5" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200"
+                data-aos-anchor-placement="center-bottom">
+                <h2 class="fw-bold">Steps for Login FeLMS</h2>
+
+            </div>
+            <div class="center-logo-container">
+                <div class="center-logo">
+                    <img src="pics/logo.png" alt="Far East Maritime Logo">
+                </div>
+            </div>
+
+            <div class="row steps-row">
+                <div class="col-md-5">
+                    <div class="step step-1"data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-duration="500"
+                    >
+                        <div class="step-title">STEP 1</div>
+                        <div class="icon-container">
+                        <img src="pics/gmail-svgrepo-com.svg" alt="logo"style="height: 35px; margin-right: 10px;">Gmail
+
+                        </div>
+                        <div class="step-content">
+                            Open your GMAIL account
+                            and look for
+                           <strong> FEMFI LMS: New User
+                            Account</strong> 
+                            for your username and
+                            password
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 d-none d-md-block"></div>
+
+                <div class="col-md-5">
+                    <div class="step step-2" data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-duration="500"
+                  >
+                        <div class="step-title">STEP 2</div>
+                        <div class="icon-container">
+                            <img src="pics/Moodle.svg" alt="logo"style="height: 35px; margin-right: 10px;">Moodle
+                        </div>
+                        <div class="step-content">
+                            Go to Moodle Application:<br>
+                            Type: <strong>moodle.feutech.edu.ph</strong><br>
+                            (on web browser). Simply type.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row steps-row mt-4">
+                <div class="col-md-5">
+                    <div class="step step-3" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-duration="500"
+                 >
+                        <div class="step-title">STEP 3</div>
+                        <div class="icon-container">
+                            <i class="fas fa-sign-in-alt text-white"></i> Login
+                        </div>
+                        <div class="step-content">
+                            Login with provided username and password
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 d-none d-md-block"></div>
+
+                <div class="col-md-5">
+                    <div class="step step-4"  data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-duration="500"
+                    data-aos-easing="ease-in-sine">
+                        <div class="step-title">STEP 4</div>
+                        <div class="icon-container">
+                            <i class="fas fa-link text-white"></i> Access
+                        </div>
+                        <div class="step-content">
+                            Access your Course & Virtual Classroom Link
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Moodle Tutorial Section -->
+    <section class="moodle-section">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <div>
+                        <h3> Tutorial to Login using FeLMS</h2>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/LPw-8ZFkNQY" title="Tutorial to Login using FeLMS"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row g-4">
+                <div class="col-lg-4">
+
+                    <p>Far East Maritime Foundation Inc. is dedicated to providing high-quality maritime education and
+                        training through distance and e-learning platforms.</p>
+                    <div class="mt-4">
+                        <a href="#" class="social-links">📱</a>
+                        <a href="#" class="social-links">📘</a>
+                        <a href="#" class="social-links">📷</a>
+                        <a href="#" class="social-links">🐦</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="footer-heading">Quick Links</h5>
+                    <a href="#" class="footer-link">Home</a>
+                    <a href="#" class="footer-link">About Us</a>
+                    <a href="#" class="footer-link">Courses</a>
+                    <a href="#" class="footer-link">E-Library</a>
+                    <a href="#" class="footer-link">Contact</a>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="footer-heading">Resources</h5>
+                    <a href="#" class="footer-link">FAQs</a>
+                    <a href="#" class="footer-link">Data Policy</a>
+                    <a href="#" class="footer-link">Student Handbook</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h5 class="footer-heading">Contact Us</h5>
+                    <p> Location: <a href="https://www.google.com/maps/dir/?api=1&destination=14.579523599248%2C120.97867190838&fbclid=IwY2xjawKFMRFleHRuA2FlbQIxMABicmlkETE4S3I3czJMbDJTR0NrQ2ZBAR7ElR8DfPEvfD4GtrI07ocPR5r5Pj542PBrA9QPiF4dFYqabAtjh9HJ1T9zWA_aem_Cj7iFijK5niqgDdj02nyxQ" target="_blank">9th Floor Room 904 Victoria Bldg., 429 United Nations Ave.,, Manila, Philippines </a></p>
+                    <p>Instagram: <a href="https://www.instagram.com/fareastmaritimeph/?fbclid=IwY2xjawKFMMpleHRuA2FlbQIxMABicmlkETE4S3I3czJMbDJTR0NrQ2ZBAR4uAYvJ31kKCyF8itejtlyp8OVu9D_IFss4N6byrQqlK872TSscVvBnWhp9jQ_aem_e9IOzeZCbmLZpNUMlTnP7g#" target="_blank"> fareastmaritimeph</a> </p>
+                    <p>Tiktok: <a href="https://www.tiktok.com/@fareastmaritimeph?fbclid=IwY2xjawKFMLJleHRuA2FlbQIxMABicmlkETE4S3I3czJMbDJTR0NrQ2ZBAR6U2skfdgpT_DGdG6XZKzxwS5-onFACxUl-ZcU-a4eoNheWzu0wZ-nCdaYGoQ_aem_-xzoZgg80w8zHkQ0A41W5Q" target="_blank">https://www.tiktok.com/@fareastmaritimeph</a></p>
+                    <p>Phone: 0927 360 2109
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Footer Section -->
+
+
+        <!-- JavaScript Files -->
+        <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="node_modules/aos/dist/aos.js"></script>
+        <script src="JS/home.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+
+</html>
